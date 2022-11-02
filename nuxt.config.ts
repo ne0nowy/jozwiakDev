@@ -7,6 +7,13 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         '@nuxtjs/tailwindcss',
     ],
+    components: {
+        global: true,
+        dirs: [
+            '~/components',
+             '~/containers',
+        ]
+    },
     build: {
         postcss: {
             postcssOptions: {
