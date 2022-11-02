@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     css: [
         "~/assets/css/tailwind.css",
+        "~/assets/css/globals.css",
     ],
     modules: [
         '@nuxt/image-edge',
