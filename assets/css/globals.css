@@ -1,0 +1,3 @@
+.gradient-border {
+    border-image: radial-gradient(circle,#323638,#2a2e2f,#232627,#1b1e1f,#141617) 1;
+}
