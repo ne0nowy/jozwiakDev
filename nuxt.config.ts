@@ -4,7 +4,6 @@ export default defineNuxtConfig({
         "~/assets/css/tailwind.css",
     ],
     modules: [
-        '@nuxt/image',
         '@nuxtjs/tailwindcss',
     ],
     build: {
